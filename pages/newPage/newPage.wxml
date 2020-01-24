@@ -1,0 +1,5 @@
+<!--pages/newPage/newPage.wxml-->
+<view class="container">
+  <text>你好，{{name}}!</text>
+  <text>你的手机号是：{{tel}}</text>
+</view>

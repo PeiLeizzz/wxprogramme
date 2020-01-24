@@ -1,0 +1,8 @@
+/* pages/newPage/newPage.wxss */
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15%;
+}

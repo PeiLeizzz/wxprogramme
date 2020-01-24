@@ -1,0 +1,32 @@
+/* pages/index2/index2.wxss */
+@import "../lib/weui.wxss";
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15%;
+}
+
+.confirm-button{
+  border-radius: 98rpx;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnImg{
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.tip{
+  align-items: center;
+  font-family: "宋体";
+  font-size: 18px;
+  margin-top: -10%;
+  margin-bottom: 10%;
+}
