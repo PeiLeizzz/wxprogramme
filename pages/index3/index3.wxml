@@ -1,0 +1,74 @@
+<!--pages/index3/index3.wxml-->
+<swiper autoplay indicator-dots indicator-color="black" indicator-active-color="white" circular interval="100">
+  <swiper-item>
+    <image src="../../icons/11.png" class="image2" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../icons/11.png" class="image2" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../icons/11.png" class="image2" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../icons/11.png" class="image2" mode="widthFix"></image>
+  </swiper-item>
+</swiper>
+
+<view class="center">
+  <video src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls enable-play-gesture vslide-gesture      vslide-gesture-in-fullscreen></video>
+</view>
+
+<view>
+  <MyHeader> </MyHeader>
+</view>
+
+<view>
+  hello world || {{msg}}
+  <view>num:{{num}}</view>
+  <view>isBoy:{{isBoy}}</view>
+  <view>person.name:{{person.name}} person.height:{{person.height}}</view>
+  <view data-id="{{title}}">title</view>
+  <view><checkbox checked="{{flag ? true:false}}"></checkbox></view>
+</view>
+
+<view>
+  {{1+2}} {{num1+num2}} {{str1+str2}}
+</view>
+
+<view>
+  <checkbox checked="{{num3 > 10}}"></checkbox>
+</view>
+
+<view>
+  <view wx:for="{{arr}}" wx:key="{{index}}">
+    {{index}}:{{item}}
+  </view>
+  <view wx:for="{{person}}" wx:key="{{index}}" wx:for-index="key">
+    {{key}}:{{item}}
+  </view>
+</view>
+
+<block wx:for="{{person}}" wx:key="{{index}}" wx:for-index="key">
+  <view>{{key}}:</view>
+  <view>{{item}}</view>
+</block>
+
+<view class="box1">box1</view>
+
+<view style="background-color: yellow; color:{{myColor}}">style</view>
+
+<view class="{{myClass}}">class</view>
+
+<view hover-class="hover_class">index</view>
+<view>
+  <text selectable="{{true}}">
+    index3 text
+  </text>
+  <text decode="{{true}}">
+    普&nbsp;通
+  </text>
+</view>
+
+<view>
+  <image src="../../icons/rocket.png" mode="aspectFit" class="image1"></image>
+</view>

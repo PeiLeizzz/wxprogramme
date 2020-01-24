@@ -1,9 +1,11 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/index3/index3",
     "pages/firstPage/firstPage",
     "pages/logs/logs",
     "pages/newPage/newPage"
+    
   ],
   "window": {
     "backgroundTextStyle": "dark",

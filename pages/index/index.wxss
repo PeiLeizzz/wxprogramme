@@ -1,4 +1,5 @@
 /**index.wxss**/
+@import "../firstPage/firstPage.wxss";
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -23,3 +24,4 @@
   font-family: "宋体";
   font-size: 30px;
 }
+

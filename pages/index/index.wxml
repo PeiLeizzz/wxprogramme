@@ -7,6 +7,12 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <navigator url="../index3/index3" open-type="navigate" style="margin-top:100rpx;">
+    <button class="confirm-button" bindtap="goToNewPage">
+      <image class="btnImg" open-type="getUserInfo" src="../../icons/rocket.png"></image>
+      <view>起飞</view>
+    </button>
+  </navigator>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
